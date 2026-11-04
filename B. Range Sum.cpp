@@ -15,12 +15,12 @@ int main() {
     int n,q;
     cin >>n>>q ;
     
-    vector<int>v(n);
+    vector<ll int>v(n);
     for(int i = 0 ;i<n;i++){
     	cin>>v[i];
     }
 
-    std::vector<int> pre(n);
+    std::vector<ll int> pre(n);
     pre[0]=v[0];
 
     int sum = pre[0];
